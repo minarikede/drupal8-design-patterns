@@ -1,0 +1,6 @@
+data_mapper_pattern.page:
+  title: Data Mapper Design Pattern
+  route_name: data_mapper_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 2000

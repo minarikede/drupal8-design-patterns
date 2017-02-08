@@ -1,0 +1,5 @@
+name: Data Mapper Design Pattern
+type: module
+description: 'A variety of data_mapper Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

@@ -1,0 +1,6 @@
+decorator_pattern.page:
+  title: Decorator Design Pattern
+  route_name: decorator_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 3000

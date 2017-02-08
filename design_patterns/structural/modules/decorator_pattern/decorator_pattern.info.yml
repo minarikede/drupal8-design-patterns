@@ -1,0 +1,5 @@
+name: Decorator Design Pattern
+type: module
+description: 'A variety of Decorator Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x
