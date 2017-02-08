@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the OOP Design Patterns module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function design_patterns_install() {
+  \Drupal::entityTypeManager()
+    ->getStorage('menu')
+    ->create([
+      'id' => 'design_patterns',
+      'label' => 'Design Pattern Menu',
+      'description' => 'Design Patterns custom menu',
+    ])
+    ->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function design_patterns_uninstall() {
+  $design_pattern_menu = \Drupal::entityTypeManager()->getStorage('menu')->load('design_patterns');
+  \Drupal::entityTypeManager()
+    ->getStorage('menu')
+    ->delete(array($design_pattern_menu));
+}

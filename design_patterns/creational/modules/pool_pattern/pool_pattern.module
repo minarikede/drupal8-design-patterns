@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns - Simple Factory patern
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function pool_pattern_theme() {
+  $return = array();
+
+  $return['pool_pattern_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_pool_pattern_content(&$variables) {
+  $module_path = drupal_get_path('module', 'pool_pattern');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

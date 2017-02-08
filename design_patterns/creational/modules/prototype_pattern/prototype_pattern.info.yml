@@ -1,0 +1,5 @@
+name: Prototype Pattern
+type: module
+description: 'A variety of OOP Design Paterns - Prototype Pattern'
+package: 'Design patterns'
+core: 8.x

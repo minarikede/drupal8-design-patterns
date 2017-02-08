@@ -1,0 +1,5 @@
+name: Behavioral Design Patterns
+type: module
+description: 'A variety of behavioral Design Paterns example code.'
+package: 'Design patterns'
+core: 8.x

@@ -1,0 +1,5 @@
+name: Template Method Design Pattern
+type: module
+description: 'A variety of Template Method Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

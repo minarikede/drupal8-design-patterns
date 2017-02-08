@@ -1,0 +1,6 @@
+factory_method.page:
+  title: Factory Method
+  route_name: factory_method_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 26

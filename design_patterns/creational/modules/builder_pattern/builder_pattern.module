@@ -1,0 +1,30 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns - Facade patern
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function builder_pattern_theme() {
+  $return = array();
+
+  $return['builder_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_builder_content(&$variables) {
+  $module_path = drupal_get_path('module', 'builder_pattern');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

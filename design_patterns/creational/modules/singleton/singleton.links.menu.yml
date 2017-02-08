@@ -1,0 +1,6 @@
+singleton.page:
+  title: Singleton
+  route_name: singleton_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 27

@@ -1,0 +1,5 @@
+name: Multiton Pattern
+type: module
+description: ' OOP Design Paterns example code. Multiton Pattern'
+package: 'Design patterns'
+core: 8.x

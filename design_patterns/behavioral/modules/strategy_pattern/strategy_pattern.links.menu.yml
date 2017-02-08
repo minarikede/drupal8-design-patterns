@@ -1,0 +1,6 @@
+strategy_pattern.page:
+  title: Strategy Design Pattern
+  route_name: strategy_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1700

@@ -1,0 +1,6 @@
+specification_pattern.page:
+  title: Specification Design Pattern
+  route_name: specification_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1600

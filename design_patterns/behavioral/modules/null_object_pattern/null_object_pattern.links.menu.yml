@@ -1,0 +1,6 @@
+null_object_pattern.page:
+  title: Null Object Design Pattern
+  route_name: null_object_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1500

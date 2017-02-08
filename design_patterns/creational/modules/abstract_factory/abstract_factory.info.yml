@@ -1,0 +1,5 @@
+name: Abstract factory
+type: module
+description: 'Abstract factory.'
+package: 'Design patterns'
+core: 8.x

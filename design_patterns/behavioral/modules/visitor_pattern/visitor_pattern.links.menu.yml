@@ -1,0 +1,6 @@
+visitor_pattern.page:
+  title: Visitor Design Pattern
+  route_name: visitor_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1800

@@ -1,0 +1,6 @@
+type: module
+name: 'Facade Pattern'
+description: 'OOP: Design Patterns - Facade pattern'
+package: 'Design patterns'
+core: '8.x'
+version: '8.x-1.x'

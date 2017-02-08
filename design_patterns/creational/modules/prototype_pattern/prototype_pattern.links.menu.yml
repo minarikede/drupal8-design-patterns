@@ -1,0 +1,6 @@
+prototype_pattern.page:
+  title: Prototype Pattern
+  route_name: prototype_pattern_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 28

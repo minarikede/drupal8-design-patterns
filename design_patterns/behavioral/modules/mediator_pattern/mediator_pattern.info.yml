@@ -1,0 +1,5 @@
+name: Mediator Design Pattern
+type: module
+description: 'A variety of Mediator Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

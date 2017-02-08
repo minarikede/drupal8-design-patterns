@@ -1,0 +1,6 @@
+multiton_pattern.page:
+  title: Multiton Pattern
+  route_name: multiton_pattern_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 300

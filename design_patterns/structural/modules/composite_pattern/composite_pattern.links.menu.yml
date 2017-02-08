@@ -1,0 +1,6 @@
+composite_pattern.page:
+  title: Composite Design Pattern
+  route_name: composite_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 2000

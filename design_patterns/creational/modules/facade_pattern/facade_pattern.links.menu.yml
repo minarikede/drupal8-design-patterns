@@ -1,0 +1,6 @@
+facade_pattern.page:
+  title: Facade Pattern
+  route_name: facade_pattern_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 100

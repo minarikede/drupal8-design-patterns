@@ -1,0 +1,21 @@
+<h1>Observer Pattern</h1>
+<p>
+    To implement a publish/subscribe behaviour to an object, whenever a
+    "Subject" object changes its state, the attached "Observers" will be
+    notified. It is used to shorten the amount of coupled objects and uses
+    loose coupling instead.
+</p>
+<h2>Examples</h2>
+
+<ul>
+    <li>a message queue system is observed to show the progress of a job in a
+        GUI</li>
+</ul>
+
+<h2>Note</h2>
+<p>
+    PHP already defines two interfaces that can help to implement this
+    pattern: SplObserver and SplSubject.
+</p>
+
+{{ uml_image }}

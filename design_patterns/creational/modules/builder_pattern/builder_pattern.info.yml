@@ -1,0 +1,6 @@
+type: module
+name: 'Builder Pattern'
+description: 'OOP: Design Patterns - Builder pattern'
+package: 'Design patterns'
+core: '8.x'
+version: '8.x-1.x'

@@ -1,0 +1,6 @@
+adapter_pattern.page:
+  title: Adapter Design Pattern
+  route_name: adapter_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 1800

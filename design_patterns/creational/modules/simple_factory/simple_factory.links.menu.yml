@@ -1,0 +1,6 @@
+simple_factory.page:
+  title: Simple Factory
+  route_name: simple_factory_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 20

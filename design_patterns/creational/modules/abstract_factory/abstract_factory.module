@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function abstract_factory_theme() {
+  $return = array();
+
+  $return['abstract_factory_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_abstract_factory_content(&$variables) {
+  $module_path = drupal_get_path('module', 'abstract_factory');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

@@ -1,0 +1,5 @@
+name: Null Object Design Pattern
+type: module
+description: 'A variety of Null_object Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

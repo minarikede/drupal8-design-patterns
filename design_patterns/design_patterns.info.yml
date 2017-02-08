@@ -1,0 +1,7 @@
+name: Design Patterns
+type: module
+description: 'A variety of Design Paterns example code.'
+package: 'Design patterns'
+core: 8.x
+dependencies:
+  - drupal:block

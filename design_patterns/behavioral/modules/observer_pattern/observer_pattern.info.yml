@@ -1,0 +1,5 @@
+name: Observer Design Pattern
+type: module
+description: 'A variety of Observer Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

@@ -1,0 +1,6 @@
+behavioral_patterns.page:
+  title: Behavioral Design Patterns Examples
+  route_name: behavioral_patterns_page
+  menu_name: design_patterns
+  parent: design_patterns.page
+  weight: 200

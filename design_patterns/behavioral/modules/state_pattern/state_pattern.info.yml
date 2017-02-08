@@ -1,0 +1,5 @@
+name: State Design Pattern
+type: module
+description: 'A variety of State Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

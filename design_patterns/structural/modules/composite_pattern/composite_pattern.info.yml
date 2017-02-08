@@ -1,0 +1,5 @@
+name: Composite Design Pattern
+type: module
+description: 'A variety of Composite Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

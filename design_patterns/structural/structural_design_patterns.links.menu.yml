@@ -1,0 +1,6 @@
+structural_design_patterns.page:
+  title: Structural Design Patterns Examples
+  route_name: structural_design_patterns_page
+  menu_name: design_patterns
+  parent: oop_design_patterns.page
+  weight: 300

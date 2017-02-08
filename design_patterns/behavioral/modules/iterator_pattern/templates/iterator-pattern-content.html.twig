@@ -1,0 +1,15 @@
+<h1>Iterator Pattern</h1>
+<p>To make an object iterable and to make it appear like a collection of objects.</p>
+<h2>Examples:</h2>
+<ul>
+    <li>to process a file line by line by just running over all lines (which
+        have an object representation) for a file (which of course is an
+        object, too)</li>
+</ul>
+<p>
+    Standard PHP Library (SPL) defines an interface Iterator which is best
+    suited for this! Often you would want to implement the Countable
+    interface too, to allow ``count($object)`` on your iterable object</p>
+
+
+{{ uml_image }}

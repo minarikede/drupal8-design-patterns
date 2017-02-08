@@ -1,0 +1,6 @@
+chain_of_responsabilities.page:
+  title: Chain of Responsabilities Patterns Examples
+  route_name: chain_of_responsabilities_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1010

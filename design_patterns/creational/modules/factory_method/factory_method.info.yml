@@ -1,0 +1,5 @@
+name: Factory Method Pattern
+type: module
+description: ' OOP Design Paterns example code. Factory Method Pattern'
+package: 'Design patterns'
+core: 8.x

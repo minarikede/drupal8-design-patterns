@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function template_method_theme() {
+  $return = array();
+
+  $return['template_method_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_template_method_content(&$variables) {
+  $module_path = drupal_get_path('module', 'template_method');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

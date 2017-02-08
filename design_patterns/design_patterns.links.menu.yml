@@ -1,0 +1,5 @@
+design_patterns.page:
+  title: Design Patterns Examples
+  route_name: desing_patterns_page
+  menu_name: design_patterns
+  weight: 10

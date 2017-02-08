@@ -1,0 +1,6 @@
+observer_pattern.page:
+  title: Observer Design Pattern Examples
+  route_name: observer_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1500

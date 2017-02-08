@@ -1,0 +1,5 @@
+name: Visitor Design Pattern
+type: module
+description: 'A variety of Visitor Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function chain_of_responsabilities_theme() {
+  $return = array();
+
+  $return['cor_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_cor_content(&$variables) {
+  $module_path = drupal_get_path('module', 'chain_of_responsabilities');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

@@ -1,0 +1,6 @@
+creational_patterns.page:
+  title: Creational Design Patterns Examples
+  route_name: creational_patterns_page
+  menu_name: design_patterns
+  parent: design_patterns.page
+  weight: 100

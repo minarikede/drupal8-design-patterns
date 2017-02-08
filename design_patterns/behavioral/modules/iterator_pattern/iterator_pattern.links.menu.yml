@@ -1,0 +1,6 @@
+iterator_pattern.page:
+  title: Iterator Design Pattern Examples
+  route_name: iterator_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1200

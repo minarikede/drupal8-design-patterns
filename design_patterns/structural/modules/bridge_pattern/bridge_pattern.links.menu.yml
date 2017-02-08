@@ -1,0 +1,6 @@
+bridge_pattern.page:
+  title: Bridge Design Pattern
+  route_name: bridge_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 1900

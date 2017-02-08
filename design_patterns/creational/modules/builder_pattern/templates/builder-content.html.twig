@@ -1,0 +1,15 @@
+<h1>Builder Pattern</h1>
+<p>Builder is an interface that build parts of a complex object.</p>
+
+<p>Sometimes, if the builder has a better knowledge of what it builds, this
+interface could be an abstract class with default methods (aka adapter).</p>
+
+<p>If you have a complex inheritance tree for objects, it is logical to
+    have a complex inheritance tree for builders too.</p>
+
+<p>Note: Builders have often a fluent interface, see the mock builder of
+    PHPUnit for example.</p>
+
+<h3>Examples</h3>
+<p>PHPUnit: Mock Builder</p>
+{{ uml_image }}

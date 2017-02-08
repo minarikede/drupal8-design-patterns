@@ -1,0 +1,6 @@
+memento_pattern.page:
+  title: Memento Design Pattern Examples
+  route_name: memento_pattern_page
+  menu_name: design_patterns
+  parent: behavioral_patterns.page
+  weight: 1400

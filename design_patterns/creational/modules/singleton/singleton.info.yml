@@ -1,0 +1,5 @@
+name: Singleton
+type: module
+description: 'A variety of OOP Design Paterns - Singleton'
+package: 'Design patterns'
+core: 8.x

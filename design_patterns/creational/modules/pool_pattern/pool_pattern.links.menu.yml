@@ -1,0 +1,6 @@
+pool_pattern.page:
+  title: Pool Pattern
+  route_name: pool_pattern_page
+  menu_name: design_patterns
+  parent: creational_patterns.page
+  weight: 400
