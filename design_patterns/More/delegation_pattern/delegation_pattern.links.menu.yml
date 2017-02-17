@@ -1,0 +1,6 @@
+delegation_pattern.page:
+  title: Delegation Design Pattern
+  route_name: delegation_pattern_page
+  menu_name: design_patterns
+  parent: more_patterns.page
+  weight: 10

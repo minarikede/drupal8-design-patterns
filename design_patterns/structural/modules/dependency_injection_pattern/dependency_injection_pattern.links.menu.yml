@@ -1,0 +1,6 @@
+dependency_injection_pattern.page:
+  title: Dependency Injection Design Pattern
+  route_name: dependency_injection_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 4000

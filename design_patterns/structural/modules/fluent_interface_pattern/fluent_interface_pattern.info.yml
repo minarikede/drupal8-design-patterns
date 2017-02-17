@@ -1,0 +1,5 @@
+name: Fluent Interface Design Pattern
+type: module
+description: 'A variety of Fluent Interface Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

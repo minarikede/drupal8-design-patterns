@@ -3,3 +3,9 @@ design_patterns.page:
   route_name: desing_patterns_page
   menu_name: design_patterns
   weight: 10
+more_patterns.page:
+  title: More Patterns Examples
+  route_name: more_patterns_page
+  parent: design_patterns.page
+  menu_name: design_patterns
+  weight: 400

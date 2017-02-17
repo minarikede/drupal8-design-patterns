@@ -3,15 +3,9 @@
 # be called when a URL is accessed.
 
 # Access to this path is not restricted. This is notated as _access: 'TRUE'.
-desing_patterns_page:
-  path: 'design-patterns'
+proxy_pattern_page:
+  path: 'design-patterns/proxy-pattern'
   defaults:
-    _controller: '\Drupal\design_patterns\Controller\DesignPatternsController::page'
-  requirements:
-    _access: 'TRUE'
-more_patterns_page:
-  path: 'more-patterns'
-  defaults:
-    _controller: '\Drupal\design_patterns\Controller\MorePatternsController::page'
+    _controller: '\Drupal\proxy_pattern\Controller\ProxyPatternController::page'
   requirements:
     _access: 'TRUE'

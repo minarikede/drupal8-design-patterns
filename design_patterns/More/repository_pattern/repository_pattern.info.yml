@@ -1,0 +1,5 @@
+name: Repository Design Pattern
+type: module
+description: 'A variety of Repository Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

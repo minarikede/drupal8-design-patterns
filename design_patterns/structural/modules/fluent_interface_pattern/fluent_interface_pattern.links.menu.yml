@@ -1,0 +1,6 @@
+fluent_interface_pattern.page:
+  title: Fluent Interface Design Pattern
+  route_name: fluent_interface_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 6000

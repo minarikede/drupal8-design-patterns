@@ -1,0 +1,6 @@
+service_locator_pattern.page:
+  title: Service Locator Design Pattern
+  route_name: service_locator_pattern_page
+  menu_name: design_patterns
+  parent: more_patterns.page
+  weight: 40

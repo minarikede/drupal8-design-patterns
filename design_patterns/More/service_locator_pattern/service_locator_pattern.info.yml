@@ -1,0 +1,5 @@
+name: Service Locator Design Pattern
+type: module
+description: 'A variety of Service Locator Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

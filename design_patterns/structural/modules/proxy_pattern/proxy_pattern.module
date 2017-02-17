@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * OOP: Design Patterns - Builder pattern.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function proxy_pattern_theme() {
+  $return = array();
+
+  $return['proxy_pattern_content'] = array(
+    'variables' => array(
+      'uml_image' => NULL,
+    ),
+  );
+
+  return $return;
+}
+
+function template_preprocess_proxy_pattern_content(&$variables) {
+  $module_path = drupal_get_path('module', 'proxy_pattern');
+  $uml_image = array(
+    '#theme' => 'image',
+    '#uri' => "{$module_path}/images/uml.png",
+  );
+  $variables['uml_image'] = render($uml_image);
+}

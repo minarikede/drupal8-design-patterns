@@ -1,0 +1,6 @@
+eav_pattern.page:
+  title: EAV Design Pattern
+  route_name: eav_pattern_page
+  menu_name: design_patterns
+  parent: more_patterns.page
+  weight: 10

@@ -1,0 +1,5 @@
+name: Dependency Injection Design Pattern
+type: module
+description: 'A variety of Dependency Injection Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

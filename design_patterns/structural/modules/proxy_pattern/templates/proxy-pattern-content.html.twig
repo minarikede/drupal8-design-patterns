@@ -1,0 +1,38 @@
+<h1>Proxy Pattern</h1>
+<h2>Intent</h2>
+<ul>
+    <li> Provide a surrogate or placeholder for another object to control access to it.</li>
+    <li>Use an extra level of indirection to support distributed, controlled, or intelligent access.</li>
+    <li>Add a wrapper and delegation to protect the real component from undue complexity.</li>
+</ul>
+<h2>Problem</h2>
+
+<p>You need to support resource-hungry objects, and you do not want to instantiate such objects unless and until they are actually requested by the client.</p>
+
+<h2>Discussion</h2>
+
+<p>Design a surrogate, or proxy, object that: instantiates the real object the first time the client makes a request of the proxy, remembers the identity of this real object, and forwards the instigating request to this real object. Then all subsequent requests are simply forwarded directly to the encapsulated real object.</p>
+
+<p>There are four common situations in which the Proxy pattern is applicable.</p>
+<ol>
+    <li>A virtual proxy is a placeholder for "expensive to create" objects. The real object is only created when a client first requests/accesses the object.</li>
+    <li>A remote proxy provides a local representative for an object that resides in a different address space. This is what the "stub" code in RPC and CORBA provides.</li>
+    <li>A protective proxy controls access to a sensitive master object. The "surrogate" object checks that the caller has the access permissions required prior to forwarding the request.
+    </li>
+    <li>A smart proxy interposes additional actions when an object is accessed. Typical uses include:
+    <ul>
+        <li>Counting the number of references to the real object so that it can be freed automatically when there are no more references (aka smart pointer),</li>
+        <li>Loading a persistent object into memory when it's first referenced,</li>
+        <li>Checking that the real object is locked before it is accessed to ensure that no other object can change it.</li>
+    </ul>
+    </li>
+</ol>
+
+<h2>Examples</h2>
+<ul>
+    <li>Doctrine2 uses proxies to implement framework magic (e.g. lazy
+        initialization) in them, while the user still works with his own
+        entity classes and will never use nor touch the proxies</li>
+</ul>
+
+{{ uml_image }}

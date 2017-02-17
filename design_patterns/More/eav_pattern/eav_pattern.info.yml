@@ -1,0 +1,5 @@
+name: EAV Design Pattern
+type: module
+description: 'A variety of Entity-Attribute-Value Design Pattern example code.'
+package: 'Design patterns'
+core: 8.x

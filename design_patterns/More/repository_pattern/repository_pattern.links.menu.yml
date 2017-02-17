@@ -1,0 +1,6 @@
+repository_pattern.page:
+  title: Repository Design Pattern
+  route_name: repository_pattern_page
+  menu_name: design_patterns
+  parent: more_patterns.page
+  weight: 30

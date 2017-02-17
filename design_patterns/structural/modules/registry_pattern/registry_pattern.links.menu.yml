@@ -1,0 +1,6 @@
+registry_pattern.page:
+  title: Registry Pattern
+  route_name: registry_pattern_page
+  menu_name: design_patterns
+  parent: structural_design_patterns.page
+  weight: 8000
