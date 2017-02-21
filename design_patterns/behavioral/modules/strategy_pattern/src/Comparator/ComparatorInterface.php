@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\strategy_pattern\Classes;
+namespace Drupal\strategy_pattern\Comparator;
 
 interface ComparatorInterface
 {

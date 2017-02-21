@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\observer_pattern\Classes;
+namespace Drupal\observer_pattern\User;
 class UserObserver implements \SplObserver
 {
     /**

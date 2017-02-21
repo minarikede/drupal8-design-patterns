@@ -2,8 +2,8 @@
 
 namespace Drupal\observer_pattern\Tests;
 
-use Drupal\observer_pattern\Classes\User;
-use Drupal\observer_pattern\Classes\UserObserver;
+use Drupal\observer_pattern\User\User;
+use Drupal\observer_pattern\User\UserObserver;
 use Drupal\Tests\UnitTestCase;
 
 class ObserverTest extends UnitTestCase

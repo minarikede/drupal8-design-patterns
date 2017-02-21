@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\observer_pattern\Classes;
+namespace Drupal\observer_pattern\User;
 
 /**
  * User implements the observed object (called Subject), it maintains a list of observers and sends notifications to

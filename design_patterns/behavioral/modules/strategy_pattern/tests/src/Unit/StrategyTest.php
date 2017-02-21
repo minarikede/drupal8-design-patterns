@@ -2,9 +2,9 @@
 
 namespace DesignPatterns\Behavioral\Strategy\Tests;
 
-use Drupal\strategy_pattern\Classes\DateComparator;
-use Drupal\strategy_pattern\Classes\IdComparator;
-use Drupal\strategy_pattern\Classes\ObjectCollection;
+use Drupal\strategy_pattern\Comparator\DateComparator;
+use Drupal\strategy_pattern\Comparator\IdComparator;
+use Drupal\strategy_pattern\Comparator\ObjectCollection;
 use Drupal\Tests\UnitTestCase;
 
 class StrategyTest extends UnitTestCase
